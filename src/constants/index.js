@@ -35,7 +35,11 @@ import Real_Estate_App from "../assets/icons/Real_Estate_App.png";
 import Doordish from "../assets/icons/Doordish.png";
 import netflix_clone from "../assets/icons/netflix_clone.png";
 import axcapital from "../assets/icons/axcapital.png"
-import clothStore from "../assets/icons/Clothing-Store.png"
+import clothStore from "../../src/assets/icons/ clothing-store.png"
+import cosmocosmetic from "../assets/icons/cosmocosmetic.png"
+import ustore from "../assets/icons/ustore.png"
+import kikibeauty from "../assets/icons/kikibeauty.png"
+import navo from "../assets/icons/navo.png"
 
 export const skills = [
     
@@ -143,32 +147,20 @@ export const experiences = [
         iconBg: "#000000",
         date: "July 2023 - Present",
         points: [
-            "Front-End Development:Built an interactive, responsive UI using HTML, CSS, JavaScript, and ReactJS, resulting in a 25% boost in user engagement, 30% lower bounce rate, and 20% faster load times. Key contributions included reusable React components, optimized JavaScript, Webpack/Babel builds, and enhanced accessibility.",
-             "Back-End Development:Developed a full-stack app with ReactJS, Node.js, and MongoDB, featuring authentication and real-time data management. This led to a 30% rise in user engagement, 40% faster load times, and 25% reduced development time. Followed best practices in code reviews, testing, and continuous integration."
+            "I develop scalable web and mobile apps using React.js, Next.js, React Native, and Flutter, choosing the right tech stack for each project. My backend expertise includes Node.js, PHP, and Laravel with MySQL, PostgreSQL, and MongoDB. I build responsive UIs with Tailwind CSS and CSS3 for smooth performance across all devices.",
+
+             "I also create SEO-optimized landing pages and eCommerce sites using WordPress, Wix, and Shopify. Using AWS services like S3, EC2, Lambda, and CloudFront, I enhance speed, scalability, and security. I focus on clean code, performance optimization, and delivering tailored solutions that meet client needs."
         ],
         
            
         
     },
     {
-        title: "Data Engineer",
-        company_name: "WorksHub - Netherlands (Remote)",
-        icon: tesla,
-        iconBg: "#ffffff",
-        date: "Feb 2024 - Present",
-        points: [
-            "ETL & Orchestration:Built efficient ETL pipelines using SQL, Python, and Generative AI, with seamless workflow automation via Dagster and Airflow.",
-            "AI & Data Retrieval:Integrated RAG with LLMs for enriched responses and optimized semantic search using embeddings and vector databases.",
-            "Data Management & Optimization:Managed reliable data flows with stream, batch, and CDC processes, ensuring high data quality and peak pipeline performance.",
-            
-        ],
-    },
-    {
         title: "Full Stack Engineer",
         company_name: "HCLTech - Sri Lanka",
         icon: shopify,
         iconBg: "#499afe",
-        date: "Jan 2022 - Jun 2023",
+        date: "Aug.2022 - Jun.2023",
         points: [
             "Creating new features, functionality and capabilities on the eCommerce sites Development languages Javascript, React.Js, Tailwind css, and Node.js.",
             "Recommending solutions for a streamlined, user-friend ly interface with thedesign team.",
@@ -177,11 +169,11 @@ export const experiences = [
         ],
     },
     {
-        title: "Associate Software Enginee",
+        title: "Full Stack Web Developer ",
         company_name: "HCLTech - Sri Lanka",
         icon: meta,
         iconBg: "#499afe",
-        date: "Feb 2021 to Jan 2022",
+        date: "Jan.2021 - Aug.2022",
         points: [
             "Developed and deployed a full-stack app with React.JS front end, nodejs back end, and mongodb, featuring authentication and real-time data management.",
             "The project improved user engagement by 30%, reduced load times by 40%, and cut down on development time by 25% compared to previous projects.",
@@ -253,11 +245,48 @@ export const projects = [
        
     },
     {
-        iconUrl: clothStore,
-        theme: 'btn-back-blue',
+        iconUrl:clothStore,
+        theme: 'btn-back-black',
         name: 'Clothing Store',
         description: "A sleek and modern clothing storefront built with Next.js, TypeScript, and Redux. It features dynamic product listings, responsive design, and efficient state management. Users can browse, filter, and add items to their cart seamlessly. The tech stack ensures fast performance, scalability, and a smooth shopping experience across devices.",
         link: 'https://funky-souq-test-4pn9agja0-imads-projects-5fe8aa24.vercel.app/',
         link2: 'https://github.com/imadmohamed/Clothing-Store',
+    },
+
+       {
+        iconUrl:cosmocosmetic,
+        theme: 'btn-back-white',
+        name: 'Cosmo Cosmetic',
+        description: "A modern cosmetic e-commerce website built with Next.js for the frontend, Node.js and Express for the backend, and Redux for state management. It offers responsive design, secure APIs, and a smooth user experience. Features include product browsing, cart management, and user authentication, ensuring fast, reliable, and scalable performance.",
+        link: 'https://cosmocosmetic.lk/',
+        link2: 'https://github.com/imadmohamed/',
+    },
+
+       {
+        iconUrl:ustore,
+        theme: 'btn-back-blue',
+        name: 'uStore',
+        description: "A modern cosmetic e-commerce website built with Next.js for the frontend, Node.js and Express for the backend, and Redux for state management. It offers responsive design, secure APIs, and a smooth user experience. Features include product browsing, cart management, and user authentication, ensuring fast, reliable, and scalable performance.",
+        link: 'https://www.ustore.lk/',
+        link2: 'https://github.com/imadmohamed/',
+    },
+
+    {
+        iconUrl:kikibeauty,
+        theme: 'btn-back-pink',
+        name: 'Kikibeauty',
+        description: "Developed the Kikibeauty website using the MERN stack with a focus on performance and SEO optimization. Implemented responsive design, smooth user interactions, and fast-loading pages to improve search engine rankings. The site features dynamic product listings, secure user management, and a streamlined shopping experience tailored for beauty consumers.",
+        link: 'https://kikibeauty.lk/',
+        link2: 'https://github.com/imadmohamed/',
+    },
+    {
+        iconUrl:navo,
+        theme: 'btn-back-pink',
+        name: 'Navo Ergonomics',
+        description: "Navo Ergonomics offers premium ergonomic furniture designed for comfort and productivity. Built on WordPress, our site supports seamless checkout with Apple Pay, Tabby, and Tamara. Optimized for SEO, Navo ensures fast, secure shopping and high Google rankings. Discover stylish, health-focused furniture that fits your lifestyle. Shop smarter and more comfortably with Navo Ergonomics today!",
+        link: 'https://navoergonomics.com/',
+        link2: 'https://github.com/imadmohamed/',
     }
+
+
 ];
