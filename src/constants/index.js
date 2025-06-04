@@ -31,10 +31,11 @@ import data from "../assets/icons/data.png"
 import sql from "../assets/icons/sql.png";
 import python from "../assets/icons/python.png";
 import leetcode from "../assets/icons/leetcode.png";
-import Email_SaaS_Course from "../assets/icons/Email_SaaS_Course.png";
 import Real_Estate_App from "../assets/icons/Real_Estate_App.png";
 import Doordish from "../assets/icons/Doordish.png";
 import netflix_clone from "../assets/icons/netflix_clone.png";
+import axcapital from "../assets/icons/axcapital.png"
+import clothStore from "../assets/icons/Clothing-Store.png"
 
 export const skills = [
     
@@ -218,24 +219,26 @@ export const projects = [
         theme: 'btn-back-red',
         name: 'Door dish',
         description: 'Developed a full-stack food delivery application featuring a responsive frontend with React.js, a robust backend using Node.js and Express.js, and MongoDB for efficient data management. The app includes secure user authentication, an intuitive admin panel for streamlined management, and seamless payment processing powered by Stripe, delivering an enhanced user and admin experience with scalable performance.',
-        link: 'https://github.com/imadmohamed/Doordish',
+        link: 'https://doordish.onrender.com/',
+        link2: 'https://github.com/imadmohamed/Doordish'
     },
     {
-        iconUrl: Email_SaaS_Course,
-        theme: 'btn-back-yellow',
-        name: 'Email SaaS Course',
-        description: "build and deploy a fully functional Email SaaS application using Next.js 14, Prisma, OpenAI, Stripe, TypeScript, and Tailwind CSS. This course covers user authentication, subscription payments, AI-powered email features, and scalable database management. By the end, you'll have hands on experience creating a production-ready SaaS product with modern web technologies.",
-
-
-        link: 'https://github.com/imadmohamed/Email-SaaS-Course',
+        iconUrl: axcapital,
+        theme: 'btn-back-black',
+        name: 'Ax Capital Real Estate ',
+        description: "AX Capital Real Estate is building a dynamic website using the MERN stack MongoDB, Express, React, and Node.js with real time features powered by Socket.IO. The platform will showcase property listings, enable instant communication between agents and clients, and provide a seamless, modern user experience for real estate browsing and interactions.",
+        link: 'https://www.axcapital.ae/',
+        link2: 'https://github.com/imadmohamed/Real-Estate-App',
         
     },
     {
         iconUrl: Real_Estate_App ,
         theme: 'btn-back-green',
         name: 'Real Estate App ',
-        description: 'Build a MERN stack real estate app with React and Node.js, featuring user authentication, property listings, advanced search, and real-time chat with Socket.io. The app includes responsive design, interactive maps, and secure booking, providing a complete platform for seamless property browsing and instant communication.',
-        link: 'https://github.com/imadmohamed/Real-Estate-App',
+        description: 'Build a MERN stack real estate app with React and Node.js, featuring user authentication, property listings, advanced search, and real time chat with Socket.io. The app includes responsive design, interactive maps, and secure booking, providing a complete platform for seamless property browsing and instant communication.',
+
+        link:'https://oia-aproperties.vercel.app/',
+        link2: 'https://github.com/imadmohamed/OIAproperties',
     },
     
     {
@@ -243,7 +246,18 @@ export const projects = [
         theme: 'btn-back-pink',
         name: 'Netflix Nelone',
         description: "A Netflix Clone built using React, Redux, Stripe, and Firebase is a full-stack web application that replicates core functionalities of Netflix, including user authentication, video streaming, and subscription payments. Here's a summary of its key aspects",
-        link: 'https://github.com/imadmohamed',
+
+        link: 'https://netflix-clone2.vercel.app/',
+        link2: 'https://github.com/imadmohamed/netflix-clone',
+
+       
+    },
+    {
+        iconUrl: clothStore,
+        theme: 'btn-back-blue',
+        name: 'Clothing Store',
+        description: "A sleek and modern clothing storefront built with Next.js, TypeScript, and Redux. It features dynamic product listings, responsive design, and efficient state management. Users can browse, filter, and add items to their cart seamlessly. The tech stack ensures fast performance, scalability, and a smooth shopping experience across devices.",
+        link: 'https://funky-souq-test-4pn9agja0-imads-projects-5fe8aa24.vercel.app/',
+        link2: 'https://github.com/imadmohamed/Clothing-Store',
     }
-    
 ];
