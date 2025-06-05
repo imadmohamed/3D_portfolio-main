@@ -22,7 +22,7 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-        Software Engineer based in the UAE, specializing in Full Stack Development and Data Engineering. Skilled in MERN stack, Next.js, and TypeScript, with experience in data pipelines, ETL processes, and scalable web applications.
+        Software Engineer based in the , specializing in Full Stack Development and Data Engineering. Skilled in MERN stack, Next.js, and TypeScript, with experience in data pipelines, ETL processes, and scalable web applications.
         </p>
       </div>
 
