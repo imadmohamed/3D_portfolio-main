@@ -35,7 +35,7 @@ import Real_Estate_App from "../assets/icons/Real_Estate_App.png";
 import Doordish from "../assets/icons/Doordish.png";
 import netflix_clone from "../assets/icons/netflix_clone.png";
 import axcapital from "../assets/icons/axcapital.png"
-import clothStore from "../../src/assets/icons/ clothing-store.png"
+import clothStore from "../assets/icons/clothing-store.png"
 import cosmocosmetic from "../assets/icons/cosmocosmetic.png"
 import ustore from "../assets/icons/ustore.png"
 import kikibeauty from "../assets/icons/kikibeauty.png"
