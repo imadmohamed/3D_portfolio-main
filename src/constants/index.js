@@ -40,6 +40,7 @@ import cosmocosmetic from "../assets/icons/cosmocosmetic.png"
 import ustore from "../assets/icons/ustore.png"
 import kikibeauty from "../assets/icons/kikibeauty.png"
 import navo from "../assets/icons/navo.png"
+import apple_logo from "../assets/icons/apple-logo.png";
 
 export const skills = [
     
@@ -286,7 +287,15 @@ export const projects = [
         description: "Navo Ergonomics offers premium ergonomic furniture designed for comfort and productivity. Built on WordPress, our site supports seamless checkout with Apple Pay, Tabby, and Tamara. Optimized for SEO, Navo ensures fast, secure shopping and high Google rankings. Discover stylish, health-focused furniture that fits your lifestyle. Shop smarter and more comfortably with Navo Ergonomics today!",
         link: 'https://navoergonomics.com/',
         link2: 'https://github.com/imadmohamed/',
-    }
+    },
+    {
+        iconUrl:apple_logo,
+        theme: 'btn-back-black',
+        name: 'Apple Website',
+        description: "I am developing an exact clone of the Apple website using React, TypeScript, and Three.js for advanced animations and motion effects. The goal is to replicate the design, interactivity, and smooth transitions of Apple's official site with high performance, responsiveness, and clean, maintainable code for a seamless user experience.",
+        link: 'https://apple-website-tau-plum.vercel.app/',
+        link2: 'https://github.com/imadmohamed/Apple-Website',
+    },
 
 
 ];
