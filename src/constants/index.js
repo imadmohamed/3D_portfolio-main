@@ -41,6 +41,7 @@ import ustore from "../assets/icons/ustore.png"
 import kikibeauty from "../assets/icons/kikibeauty.png"
 import navo from "../assets/icons/navo.png"
 import apple_logo from "../assets/icons/apple-logo.png";
+import archi from "../assets/icons/aechi.png";
 
 export const skills = [
     
@@ -295,6 +296,14 @@ export const projects = [
         description: "I am developing an exact clone of the Apple website using React, TypeScript, and Three.js for advanced animations and motion effects. The goal is to replicate the design, interactivity, and smooth transitions of Apple's official site with high performance, responsiveness, and clean, maintainable code for a seamless user experience.",
         link: 'https://apple-website-tau-plum.vercel.app/',
         link2: 'https://github.com/imadmohamed/Apple-Website',
+    },
+    {
+        iconUrl:archi,
+        theme: 'btn-back-green',
+        name: 'Architecture Website',
+        description: "I design stunning architecture landing page animations using Webflow, blending modern aesthetics with seamless functionality. My focus is on creating visually engaging, interactive experiences that elevate your brand and captivate visitors. With precision and creativity, I bring your architectural vision to life through dynamic, high-performance Webflow websites.",
+        link: 'https://mohammeds-superb-site-45e808.webflow.io/',
+        link2: '',
     },
 
 
