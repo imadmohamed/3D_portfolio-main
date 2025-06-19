@@ -42,6 +42,7 @@ import kikibeauty from "../assets/icons/kikibeauty.png"
 import navo from "../assets/icons/navo.png"
 import apple_logo from "../assets/icons/apple-logo.png";
 import archi from "../assets/icons/aechi.png";
+import icon from "../assets/icons/icon.png";
 
 export const skills = [
     
@@ -305,6 +306,15 @@ export const projects = [
         link: 'https://mohammeds-superb-site-45e808.webflow.io/',
         link2: '',
     },
+    {
+        iconUrl: icon,
+        theme: 'btn-back-black',
+        name: 'The iconic Skin',
+        description: "I am a Full Stack Developer with expertise in React, Node.js, and MongoDB. I create dynamic web applications with responsive designs and efficient backends. My projects include e-commerce sites, real estate platforms, and more, showcasing my skills in building user-friendly interfaces and robust server-side logic.",
+        link: 'https://theiconicskin.com',
+        link2: ''
+
+    }
 
 
 ];
