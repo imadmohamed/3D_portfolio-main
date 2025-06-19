@@ -310,7 +310,7 @@ export const projects = [
         iconUrl: icon,
         theme: 'btn-back-black',
         name: 'The iconic Skin',
-        description: "I am a Full Stack Developer with expertise in React, Node.js, and MongoDB. I create dynamic web applications with responsive designs and efficient backends. My projects include e-commerce sites, real estate platforms, and more, showcasing my skills in building user-friendly interfaces and robust server-side logic.",
+        description: "I developed a dynamic website integrating React for the frontend and WordPress as a headless CMS for backend content management. This setup ensures a fast, responsive user experience with the flexibility of WordPress. The site supports real-time updates, SEO optimization, and a fully customizable interface tailored to client needs.",
         link: 'https://theiconicskin.com',
         link2: ''
 
