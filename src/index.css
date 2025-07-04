@@ -142,6 +142,10 @@ body:has(.card[data-color="green"]:hover) {
   background: linear-gradient(135deg, #0a1647 -20%, #e4e7e4 120%);
 }
 
+.block-container .btn-back-darkred {
+  background: linear-gradient( #a71b1f , #a71b1f);
+}
+
 .block-container .btn-front {
   position: absolute;
   inset: 0;
