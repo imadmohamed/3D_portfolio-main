@@ -226,6 +226,17 @@ export const projects = [
         link2: 'https://github.com/imadmohamed/Real-Estate-App',
         
     },
+    
+    {
+        iconUrl: axcapital,
+        theme: 'btn-back-black',
+        name: 'Red Rock Real Estate ',
+        description: "I have successfully implemented both custom APIs and third-party APIs to enable seamless product listing and dynamic data integration across the platform. In addition to handling the backend API development, I focused on SEO optimization strategies, including technical SEO, structured data, and content optimization. As a result, the website has achieved significant SEO growth, currently ranking on the first page of Google search results, holding the 3rd position for targeted keywords.",
+        link: 'https://redrockre.ae/',
+        link2: 'https://github.com/imadmohamed/Real-Estate-App',
+        
+    },
+
     {
         iconUrl: Real_Estate_App ,
         theme: 'btn-back-green',
